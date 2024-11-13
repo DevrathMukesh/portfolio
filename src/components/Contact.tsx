@@ -45,7 +45,7 @@ const Contact = () => {
           </h5>
           <p className="max-w-lg text-base text-textWhite">
             Feel free to reach out to me via any of the platforms below. Whether
-            it's about new opportunities or just to connect, I'd love to hear
+            it&apos;s about new opportunities or just to connect, I&apos;d love to hear
             from you!
           </p>
           <div className="mt-6 flex flex-row justify-center gap-6 md:justify-start">
