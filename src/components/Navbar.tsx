@@ -6,7 +6,7 @@ import { SiEbox, SiKaggle } from "react-icons/si";
 import { MenuItems } from "../constants/MenuItem";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import * as Scroll from "react-scroll";
+// import * as Scroll from "react-scroll";
 import {
   Link as ScrollLink,
   Button,
@@ -16,8 +16,7 @@ import {
   scrollSpy,
   scroller,
 } from "react-scroll";
-import { FaTwitter } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+
 
 const Navbar = () => {
   const [mobileView, setMobileView] = useState(false);

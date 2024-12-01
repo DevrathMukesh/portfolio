@@ -27,8 +27,13 @@ import {
   Html5Original,
   COriginal,
   PrismaOriginal,
+  VisualstudioOriginal,
+  JupyterOriginalWordmark,
+  PandasOriginal,
+  TensorflowLine,
+  ScikitlearnOriginal,
 } from "devicons-react";
-import skill from "@/assets/skill.png";
+import skill from "@/assets/code.png";
 import Image from "next/image";
 
 interface Props {
@@ -41,6 +46,22 @@ const SkillCardBlock = ({ icon, name }: Props) => {
   switch (icon) {
     case "ReactOriginal":
       IconComponent = ReactOriginal;
+      break;
+
+    case "JupyterOriginalWordmark ":
+      IconComponent = JupyterOriginalWordmark;
+      break;
+
+    case "TensorflowLine":
+      IconComponent = TensorflowLine;
+      break;
+
+    case "ScikitlearnOriginal":
+      IconComponent = ScikitlearnOriginal;
+      break;
+
+    case "PandasOriginal":
+      IconComponent = PandasOriginal;
       break;
 
     case "COriginal":
@@ -123,6 +144,9 @@ const SkillCardBlock = ({ icon, name }: Props) => {
       break;
     case "TypescriptOriginal":
       IconComponent = TypescriptOriginal;
+      break;
+    case "VisualstudioOriginal":
+      IconComponent = VisualstudioOriginal;
       break;
     default:
       break;

@@ -17,7 +17,7 @@ const Skills = (props: Props) => {
   };
 
   return (
-    <section className="sm:py-[80px] sm:px-6" id="skills">
+    <section className="sm:py-[40px] sm:px-6" id="skills">
       <motion.div
         ref={refHeading}
         variants={variants1}

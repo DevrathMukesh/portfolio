@@ -3,7 +3,6 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { HiMailOpen } from "react-icons/hi";
-import { FaXTwitter } from "react-icons/fa6";
 
 const Contact = () => {
   const refHeading = useRef(null);

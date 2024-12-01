@@ -26,7 +26,7 @@ const Projects = () => {
   const displayedProjects = showAll ? ProjectList : ProjectList.slice(0, 4);
 
   return (
-    <section className="py-[80px] sm:px-6" id="projects">
+    <section className="py-[40px] sm:px-6" id="projects">
       {/* Heading with animation */}
       <motion.div
         ref={refHeading}

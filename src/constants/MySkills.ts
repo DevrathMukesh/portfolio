@@ -1,156 +1,74 @@
-import c from "../assets/c.svg";
-import react from "../assets/react.svg";
-import js from "../assets/js.svg";
-import python from "../assets/python.svg";
-import cpp from "../assets/cpp.svg";
-import node from "../assets/node.svg";
-import mongo from "../assets/mongo.svg";
-import express from "../assets/express.svg";
-import tailwind from "../assets/tailwind.svg";
-import github from "../assets/github.svg";
-import next from "../assets/next.svg";
-import typescript from "../assets/typescript.svg";
-import html from "../assets/html.svg";
-import css from "../assets/css.svg";
-
 export const MySkills = [
   {
     title: "Programming Languages",
     skills: [
-      {
-        name: "C++",
-        icon: "CplusplusOriginal",
-      },
-      {
-        name: "Python",
-        icon: "PythonOriginal",
-      },
-      {
-        name: "JavaScript",
-        icon: "JavascriptOriginal",
-      },
-      {
-        name: "TypeScript",
-        icon: "TypescriptOriginal",
-      },
-      {
-        name: "C",
-        icon: "COriginal",
-      },
+      { name: "C++", icon: "CplusplusOriginal" },
+      { name: "Python", icon: "PythonOriginal" },
+      { name: "C", icon: "COriginal" },
+      { name: "JavaScript", icon: "JavascriptOriginal" },
+      { name: "SQL", icon: "SqldeveloperOriginal" },
     ],
     index: 1,
   },
   {
     title: "Web Technologies",
     skills: [
-      // {
-      //   name: "Next.js",
-      //   icon: "NextjsOriginal",
-      // },
-      {
-        name: "HTML",
-        icon: "Html5Original",
-      },
-      {
-        name: "CSS",
-        icon: "Css3Original",
-      },
-      {
-        name: "React.js",
-        icon: "ReactOriginal",
-      },
-      {
-        name: "Node.js",
-        icon: "NodejsOriginal",
-      },
-      {
-        name: "Express.js",
-        icon: "ExpressOriginal",
-      },
-      {
-        name: "Tailwind CSS",
-        icon: "TailwindcssOriginal",
-      },
-      {
-        name: "Bootstrap",
-        icon: "BootstrapOriginal",
-      },
-      {
-        name: "Shadcn UI",
-        icon: null,
-      },
-      // {
-      //   name: "Material UI",
-      //   icon: "MaterialuiOriginal",
-      // },
-      // {
-      //   name: "Redux",
-      //   icon: "ReduxOriginal",
-      // },
-      // {
-      //   name: "React Query",
-      //   icon: null,
-      // },
+      { name: "HTML", icon: "Html5Original" },
+      { name: "CSS", icon: "Css3Original" },
+      { name: "React.js", icon: "ReactOriginal" },
+      { name: "Node.js", icon: "NodejsOriginal" },
+      { name: "Tailwind CSS", icon: "TailwindcssOriginal" },
+      { name: "Bootstrap", icon: "BootstrapOriginal" },
     ],
     index: 2,
   },
-
   {
-    title: "Databases",
+    title: "Frameworks and Libraries",
     skills: [
-      {
-        name: "MongoDB",
-        icon: "MongodbOriginal",
-      },
-      {
-        name: "MySQL",
-        icon: "MysqlOriginal",
-      },
+      { name: "TensorFlow", icon: "TensorflowLine" },
+      { name: "Pandas", icon: "PandasOriginal" },
+      { name: "NLTK", icon: "PythonOriginal" },
+      { name: "Scikit-learn", icon: "ScikitlearnOriginal" },
+      { name: "Transformers", icon: "PythonOriginal" },
     ],
     index: 3,
   },
-
+  {
+    title: "Databases",
+    skills: [
+      { name: "MongoDB", icon: "MongodbOriginal" },
+      { name: "MySQL", icon: "MysqlOriginal" },
+    ],
+    index: 4,
+  },
   {
     title: "Tools",
     skills: [
-      {
-        name: "Git",
-        icon: "GitOriginal",
-      },
-      {
-        name: "Github",
-        icon: "GithubOriginal",
-      },
-      {
-        name: "Postman",
-        icon: "PostmanOriginal",
-      },
+      { name: "Git", icon: "GitOriginal" },
+      { name: "GitHub", icon: "GithubOriginal" },
+      { name: "Postman", icon: "PostmanOriginal" },
+      { name: "Visual Studio Code", icon: "VisualstudioOriginal" },
+      { name: "Jupyter Notebook", icon: "JupyterOriginalWordmark " },
     ],
     index: 5,
   },
-
+  {
+    title: "Soft Skills",
+    skills: [
+      { name: "Team Leadership", icon: null },
+      { name: "Collaboration", icon: null },
+      { name: "Communication", icon: null },
+    ],
+    index: 6,
+  },
   {
     title: "Coursework",
     skills: [
-      {
-        name: "Data Structures and Algorithms",
-        icon: null,
-      },
-      {
-        name: "Object Oriented Programming",
-        icon: null,
-      },
-
-      {
-        name: "Operating Systems",
-        icon: null,
-      },
-
-      {
-        name: "Natural Language Processing (NLP)",
-        icon: null,
-      },
+      { name: "Data Structures and Algorithms", icon: null },
+      { name: "Object Oriented Programming", icon: null },
+      { name: "Operating Systems", icon: null },
+      { name: "Natural Language Processing (NLP)", icon: null },
     ],
-    index: 6,
+    index: 7,
   },
 ];

@@ -1,14 +1,6 @@
-import jobify from "@/assets/projects/jobify.png";
-import buzzbuy from "@/assets/projects/buzzbuy.png";
-import discord from "@/assets/projects/discord.png";
-import bytebrainhub from "@/assets/projects/bytebrainhub.png";
-import whisper from "@/assets/projects/whisper.png";
-import notion from "@/assets/projects/notion.png";
-import forkify from "@/assets/projects/forkify.png";
-import bankist from "@/assets/projects/bankist.png";
 import quora from "@/assets/projects/quora.png";
 import chatbot from "@/assets/projects/chatbot.png"
-import urban from "@/assets/projects/urban.png"
+import urban1 from "@/assets/projects/urban1.png"
 
 
 export const ProjectList = [
@@ -21,11 +13,11 @@ export const ProjectList = [
       "Processed over 8,700 samples, improving the model’s ability to distinguish various urban sounds.",
       "Enhanced environmental monitoring and urban planning efforts by providing insights into sound classification.",
     ],
-    img: urban,
+    img: urban1,
     //max 6 tech stack
     tech: ["Deep Learning", "TensorFlow", "MFCC", "UrbanSound8K Dataset"],
     source: "https://github.com/DevrathMukesh/DevrathMukesh-UrbanSoundClassifierNN",
-    demo: null, // You can add a demo if you have a web interface for it
+    demo: "https://devrathmukesh-urbansoundclassifiernn-bvzccdyxvazzrhfiepjrso.streamlit.app/", // You can add a demo if you have a web interface for it
   },
   {
     id: 2,
