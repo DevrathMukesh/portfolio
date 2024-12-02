@@ -11,7 +11,7 @@ export const ProjectList = [
       "Designed a neural network model with TensorFlow for classifying urban sounds, attaining an accuracy of 86.8% on the UrbanSound8K dataset.",
       "Employed Mel-Frequency Cepstral Coefficients (MFCCs) for effective feature extraction, converting audio signals into 40-dimensional feature vectors.",
       "Processed over 8,700 samples, improving the model’s ability to distinguish various urban sounds.",
-      "Enhanced environmental monitoring and urban planning efforts by providing insights into sound classification.",
+      //"Enhanced environmental monitoring and urban planning efforts by providing insights into sound classification.",
     ],
     img: urban1,
     //max 6 tech stack
